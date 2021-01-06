@@ -1,0 +1,17 @@
+.first-table {
+    border-collapse:collapse;
+    border: 1px solid black;
+    caption-side: top;
+    empty-cells: show;
+}
+
+
+
+.second-table, td {
+    border-collapse: separate;
+    border: 1px solid black;
+    caption-side: bottom;
+    empty-cells: hide;
+    border-spacing: 5px;
+
+}
